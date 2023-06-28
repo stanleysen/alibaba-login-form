@@ -1,0 +1,224 @@
+*{
+    font-family:  Roboto-Regular,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+}
+
+.border{
+    margin-top: 3em;
+    height: 38em;
+    background-color: #fff;
+    margin-left: 26em;
+    margin-right: 26em;
+    box-shadow: 2px 0 12px -4px #888, -12px 0 2px -15px #888;
+
+    -moz-box-shadow: 6px 0 4px -4px 
+    #888, -6px 0 4px -4px #888; 
+    -webkit-box-shadow: 6px 0 4px -4px #888, -6px 0 4px -4px #888;
+}
+
+.border-orange{
+    background-color: #ff6a00;
+    height: 5px;
+    width: 100%;
+}
+
+.form-cont-1{
+    /* border: 1px solid black; */
+    margin-top: 2.6em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+select{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border: 1px solid #ccc;
+    /* color: #999; */
+}
+
+option{
+    padding: 8px;
+}
+
+.country-term{
+    text-indent: 2px;
+    margin-top: -8px;
+}
+
+.country-cont p{
+    color: #eea252;
+    font-size: 12px;
+}
+
+.pc-2{
+    margin-top: -15px;
+}
+
+img{
+    width: 11px;
+}
+
+/* email */
+.email-cont{
+    margin-top: 32px;
+}
+
+.email-cont input[type="text"]{
+    width: 100%;
+    height: 40px;
+    padding-left: 8px;
+    border: none;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* pass */
+.pass-cont{
+    margin-top: 27px;
+}
+
+.pass-cont input[type="password"]{
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border: none;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* confirm password */
+.conf-pass-cont{
+    margin-top: 27px;
+}
+
+.conf-pass-cont input[type="password"]{
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border: none;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* form terms */
+.form-terms-cont{
+    margin-top: 27px;
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+a{
+    text-decoration: none;
+    color: #ff6a00;
+}
+
+.button-cont{
+    margin-top: 26px;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border: 1px solid #ccc;
+    background-color: #ff6a00;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #ff6a00c2;
+}
+
+
+.terms-content{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.terms{
+    font-size: 13px;
+    
+}
+
+.terms-content input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark{
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 11px;
+    width: 11px;
+    background-color: #eee;
+}
+
+.terms-content:hover input ~ .checkmark{
+    background-color: #ccc;
+}
+
+.terms-content input:checked ~ .checkmark{
+    background-color: #ff6a00;
+}
+
+.checkmark:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.terms-content input:checked ~ .checkmark:after{
+    display: block;
+}
+
+.terms-content .checkmark:after {
+    left: 3px;
+    top: 0.9px;
+    width: 2px;
+    height: 5px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .sign-in{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 13px;
+  }
+
+
+/* select */
+select:focus{
+    outline: 0;
+    border-color: #777;
+}
+
+/* form control */
+.form-control input:focus {
+	outline: 0;
+	border-color: #159257;
+}
+
+.form-control span {
+    font-size: 11px;
+	color: #e74c3c;
+	visibility: hidden;
+}
+
+
+

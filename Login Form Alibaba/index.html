@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+
+    
+    <body>
+       
+        <!-- regis form -->
+        <div class="border">
+            <div class="border-orange"></div>
+
+            <div class="form-cont-1">
+                <form action="#" id="form" onsubmit="return validation();">
+
+                    <div class="form-cont-2">
+                        <!-- dropdown country -->
+                        <div class="country-cont">
+                            <select name="" id="" class="country-select">
+                                <option value="">Arabian</option>
+                                <option value="">Chinese</option>
+                                <option value="">English</option>
+                                <option value="">Indonesia</option>
+                                <option value="">Japanese</option>
+                            </select>
+                            
+                            <div class="country-term">
+                                <p class="pc-1"> 
+                                    <img src="info.png" alt="">    Country/region will be used for curreny and tax purposes and cannot be changed after
+                                    <p class="pc-2">registration.</p>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- email  -->
+                        <div class="email-cont form-control">
+                            <input type="text" id="email" placeholder="Enter your email">
+                            <div class="alert">
+                                <span id="email-error">Please enter your email.</span>
+                            </div>
+                        </div>
+
+                        <!-- password -->
+                        <div class="pass-cont form-control">
+                            <input type="password" id="password" placeholder="Enter your password" >
+                            <div class="alert">
+                                <span id="pass-error">Please enter your password.</span> 
+                            </div>
+                        </div>
+                        
+                        <!-- confirm pass -->
+                        <div class="conf-pass-cont form-control">
+                            <input type="password" id="password2" placeholder="Confirm your password">
+                            <div class="alert">
+                                <span id="pass-2-error">Please enter your password.</span>
+                            </div>
+                        </div>
+
+                        <!-- form terms -->
+                        <div class="form-terms-cont">
+                            <label class="terms-content">
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+
+                            <label class="terms">
+                                I hereby agree to Alibaba Cloud international Website <a href="">Membership <br> Agreement,</a>
+                                <a href="">Privacy Policy</a>, <a href="">Product Terms</a>, and <a href="">Terms of Use</a>
+                                , under which I am<br> contracting with Alibaba Cloud (Singapore) Private Limited.
+                            </label>
+                        </div>
+                        
+                        <!-- confirm button -->
+                        <div class="button-cont">
+                            <button >Confirm</button>
+                        </div>
+                            
+                        <!-- sign-in -->
+                        <div class="sign-in">
+                            <p>Already a member? <a href="">Sign In</a></p>
+                        </div>
+                    </div>
+                        
+                </form>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
